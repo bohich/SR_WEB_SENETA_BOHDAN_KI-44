@@ -1,19 +1,98 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Seneta Bohdan KI-44 Ping-Pong Game</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Today</title>
     <style>
-      body {padding: 0; margin: 0; overflow: hidden;}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .article h2 {
+            margin-top: 0;
+        }
+        .article p {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .footer p {
+            margin: 0;
+        }
     </style>
-  </head>
-  <body>
-    <canvas id="canvas"></canvas>
-    <audio preload="true" id="collide">
-      <source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.mp3" />
-      <source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.wav" />
-    </audio>
-
-    <script src="main.js"></script>
-  </body>
+</head>
+<body>
+    <header>
+        <h1>Fake News Today</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Politics</a>
+        <a href="#">Technology</a>
+        <a href="#">Health</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="article">
+            <h2>Breaking News: Aliens Land in Central Park</h2>
+            <p>In an unexpected turn of events, aliens have landed in Central Park, New York. Witnesses report seeing bright lights and hearing strange noises in the sky. Local authorities have cordoned off the area, and investigations are ongoing. Stay tuned for more updates as we uncover this story.</p>
+        </div>
+        <div class="article">
+            <h2>New Study Reveals Chocolate Increases Intelligence</h2>
+            <p>Scientists have discovered that consuming chocolate on a daily basis can increase intelligence by up to 20%. The study, conducted by the Institute of Sweet Science, followed participants over a six-month period and found significant improvements in cognitive function and memory.</p>
+        </div>
+        <div class="article">
+            <h2>Tech Giants to Merge and Create Ultimate Super-Company</h2>
+            <p>In a historic move, the world's top tech companies have announced a merger that will create the ultimate super-company. The new entity, named TechCorp Unlimited, will combine resources, talent, and technology to dominate the industry and revolutionize the way we live and work.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Fake News Today. All rights reserved.</p>
+    </div>
+</body>
 </html>
